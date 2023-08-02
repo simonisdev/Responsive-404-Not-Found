@@ -30,7 +30,7 @@ body {
 }
 .left-container img {
     width: 100%;
-    padding: 15%;
+    padding: 64px;
 }
 .right-container {
     width: 100%;
@@ -49,7 +49,7 @@ body {
     letter-spacing: -1.68px;
 }
 .right-container p {
-    width: 328px;
+    /* width: 328px; */
     height: 81px;
     margin: 0 24px 0 23px;
     color: var(--gray-2);
@@ -66,7 +66,6 @@ a {
 .rectangle {
     display: flex;
     align-items: center;
-    margin-top: 40px;
     margin: 40px auto 155px 24px;
     width: 216px;
     height: 68px;
@@ -94,7 +93,8 @@ a {
 @media screen and (min-width: 768px) {
     .top-container {
         width: 100%;
-        padding: 40px;
+        /* padding: 40px; */
+        margin: 40px 0 140px 77px;
     }
     .container {
         width: 100%;
@@ -104,21 +104,34 @@ a {
         width: 50%;
     }
     .left-container img {
-        padding: 0 24px;
+        /* height: 50%; */
+        /* max-width: 530px; */
+        /* width: 539.224px; */
+        /* height: 414.249px; */
+        /* flex-shrink: 0; */
+        /* padding: 0 24px; */
+        padding: 0;
     }
     .right-container {
+        margin-left: 120px;
         width: 50%;
+        padding: 0;
     }
     .right-container h1 {
         font-size: 64px;
     }
     .right-container h2 {
         font-size: 20px;
-        margin: 0 0 10px;
+        /* margin: 0 0 10px; */
     }
     .right-container p {
         width: 381px;
         font-size: 24px;
-        margin: 0 0 10px;
+        /* margin: 36 auto auto 0; */
+        margin-top: 36px;
+    }
+    .rectangle {
+        /* margin: 64px auto auto 0; */
+        margin-top: 64px;
     }
 }
